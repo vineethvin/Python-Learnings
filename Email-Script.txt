@@ -1,3 +1,5 @@
 Email Script
 Just added a branch to the original file
 Updated the file on local and pushing to the repo on git hub
+Created a branch with 'git branch branch-name'
+then will be merging the actual file
