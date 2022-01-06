@@ -1,0 +1,13 @@
+CI/CD
+
+- Continous Integration/Continous Deployment/Delivery
+- Old Process
+    software development team write the code and push to git
+    Build and Integration team would compile and prepare a software package
+    Operations team deploy it to a test server
+    Testing team do the testing and check if everything is working.
+    Operations Team will deploy it to production.
+
+CI - Continous Integration is software development practice that requires developers to integrate code into a shared repository serveral times a day.
+CD -Continous Delivery is a software development practice where software can be released to production at any time.
+    Continous Deployment is a software development practice where software is automatically released to production continously.
