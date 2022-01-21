@@ -12,7 +12,8 @@ This is the algorithm of KPI tree:
 11) For the KPI(TNS,MAT,IDC ..) filter the tree data to get the actuals of it.
 12) transpose and transform similar to above steps.
 13) merge the KPI actuals and quantity data.
-14)
+14) Join the data from 13th step with ba.volume data.
+15) transform and run the ML model
 
 
 
