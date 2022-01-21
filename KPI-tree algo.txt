@@ -1,0 +1,18 @@
+This is the algorithm of KPI tree:
+1) import all the required modules
+2) connect to mysql and pull the node and nodedata table.
+3) select the required columns from both the tables.
+4) create a tree data using the left join on the tables using node-id
+5) get the required products values in list.
+6) pull the BA volumes data from the excel
+7) transpose the BA-volumes data and add to a list.
+8) get all the quantity data from the tree data by filtering the node having quantity.
+9) filter the quantity data for the required products in step 5.
+10) transpose and transform the quantity data to get them in same format as ba.volume.
+11) For the KPI(TNS,MAT,IDC ..) filter the tree data to get the actuals of it.
+12) transpose and transform similar to above steps.
+13) merge the KPI actuals and quantity data.
+14)
+
+
+
